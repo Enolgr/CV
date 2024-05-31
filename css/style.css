@@ -22,9 +22,19 @@ h6 {
 
 @font-face {
   font-family: "Overused Grotesk";
-  src: url(/fonts/OverusedGrotesk-VF.ttf) format("woff2 supports variations"),
-    url(/fonts/OverusedGrotesk-VF.ttf) format("woff2-variations");
+  src:
+  url("/fonts/OverusedGrotesk-VF.ttf") format("truetype"); 
 }
+
+/* @font-face {
+  font-family: "Overused Grotesk";
+  src: url("/fonts/OverusedGrotesk-VF.woff2") format("woff2"),
+       url("/fonts/OverusedGrotesk-VF.woff") format("woff"),
+       url("/fonts/OverusedGrotesk-VF.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
 
 body {
   font-family: "Overused Grotesk";
