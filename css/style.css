@@ -22,8 +22,8 @@ h6 {
 
 @font-face {
   font-family: "Overused Grotesk";
-  src: url(./fonts/OverusedGrotesk-VF.ttf) format("woff2 supports variations"),
-    url(./fonts/OverusedGrotesk-VF.ttf) format("woff2-variations");
+  src: url(/fonts/OverusedGrotesk-VF.ttf) format("woff2 supports variations"),
+    url(/fonts/OverusedGrotesk-VF.ttf) format("woff2-variations");
 }
 
 body {
